@@ -13,6 +13,6 @@ int fact(int x){
     int n ,r;
     cout<<"enter n and r : ";
     cin>>n >>r;
-int ncr = fact(n)/(fact(r)*fact(n-r));
-cout<<ncr;
+    int ncr = fact(n)/(fact(r)*fact(n-r));
+    cout<<ncr;
 }
