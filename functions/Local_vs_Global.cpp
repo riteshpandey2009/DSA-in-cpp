@@ -1,9 +1,13 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-int x =10;
+int x =10; //Global Variable
+void change(){
+    x = 45;
+}
 int main(){
-    cout<<x<<endl;
     x = 80;
+    cout<<x<<endl;
+    change();
     cout<<x<<endl;
 }
